@@ -1,0 +1,18 @@
+
+User story: 
+As a user,
+ I want to use a search field to type a locations,Games,or Date, 
+so that I could find matching Game options.
+
+
+
+Acceptance:
+Given im open the browser.
+ When i give the valid URL in the browser.
+And the page is loaded.
+Then the system should displays the gamecourt home page.
+
+The search field is placed on the top bar
+When i click the "Search" starts
+and The placeholder disappears once the user starts typing
+then  Search is performed if a user types in a locations, Game name, Date.
